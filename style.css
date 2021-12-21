@@ -1,0 +1,655 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+:root{
+    --mount-meadow: #1bbc9c;
+    --white-smoke: #f0f0f0;
+    --night-rider: #343434;
+    --black: #191b17;
+    --transition: all 0.5s ease-in-out;
+    --green:#27ae60;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+*{
+    font-family: 'Hind Siliguri', sans-serif; 
+}
+
+/* Navbar */
+.fixed-nav-bar { 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 9999; 
+    width: 100%; 
+}
+
+ .topnav {
+    background-color: #fff;
+    overflow: hidden;
+    }
+
+    .topnav a {
+    float: right;
+    color: rgb(58, 58, 58);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 12px;
+    }
+
+    .topnav img {
+        margin-left: 25px;
+    }
+
+    .topnav a:hover {
+    background-color: #ddd;
+    color: rgb(58, 58, 58);
+    }
+
+    .topnav a:active {
+    background-color: #14cac19d;
+    color: rgb(58, 58, 58);
+    }
+    /* Navbar ends */
+
+    /* Home Section */
+    .bigDiv1{
+        display: flex;
+        margin-top: 70px;
+    }
+    
+    .bigDiv2{
+        display: flex;
+    }
+    
+    .backImg{
+        background-color: #14cac19d;
+        height: 400px;
+        flex: 3;
+    }
+    
+    .backImg #para1{
+        padding-top: 30px;
+        margin-left: 50px;
+        font-size: 1.2em;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .backImg h1{
+        margin-left: 50px;
+        font-size: 40px;
+    }
+    
+    .backImg #para2{
+        margin-left: 50px;
+        font-size: 1.3em;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .backImg #btn{
+        margin-left: 50px;
+        width: 130px;
+        padding: 1%;
+        background-color: rgb(58, 57, 57); 
+        color: white;
+        border: 0px;
+        border-radius: 0.5rem;
+    }
+    
+    .imgDiv1 {
+        flex: 1;
+    }
+    
+    .imgDiv2{
+        flex: 1;
+    }
+    
+    .textDiv1{
+        flex: 3;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-top: 50px;
+        padding-left: 100px;
+    }
+    
+    .textDiv1 p{
+        font-size: large;   
+    }
+    
+    .textDiv1 #btn, .textDiv2 #btn{
+        padding: 1%;
+        width: 130px;
+        background-color: rgb(58, 57, 57); 
+        color: white;
+        border: 0px;
+        border-radius: 0.5rem;
+    }
+    
+    .bigDiv3{
+        background-color: #14cac19d;
+        height: 400px;
+        display: flex;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .textDiv2{
+        margin-left: 100px;
+        margin-right:50px;
+        padding-top: 30px;
+        flex: 2;
+    }
+    
+    .textDiv2 h1{
+        font-size: 40px;
+    }
+    
+    .textDiv2 p{
+        font-size: 1.3em;
+    }
+    
+    .imgDiv3{
+        flex: 1;
+    }
+    /* Home Section ends*/
+
+    /* About Us Section*/
+    .container{
+        display: flex;
+    }
+    
+    .imgDiv{
+        flex: 1;
+    }
+    
+    .abttextDiv h2{
+        font-size: 35px;
+    }
+    
+    .abttextDiv{
+        flex: 2; 
+        margin-left: 15px;
+        margin-top: 75px;
+        padding-left: 15px;
+        font-family: 'poppins', sans-serif;
+    }
+    
+    .abttextDiv p{
+        font-size: 1.3em;
+    }
+    
+    .abttextDiv #btn{
+        padding: 1%;
+        width: 130px;
+        background-color: rgb(58, 57, 57); 
+        color: white;
+        border: 0px;
+        border-radius: 0.5rem;
+    }
+    
+    .shortDivs{
+        text-align: center;
+        padding: 2%;
+    }
+    
+    .shortDivs p{
+        font-size: 20px;
+    }
+    
+    .shortDivs > .shortDiv1{
+        margin: 10px;
+        margin-left: 90px;
+        margin-right: 90px;
+        padding: 2px;
+        background-color: #14cac19d;
+        box-shadow: 3px 3px 5px rgb(158, 158, 158);
+    }
+    
+    .shortDivs > .shortDiv2{
+        margin: 10px;
+        margin-left: 90px;
+        margin-right: 90px;
+        padding: 2px;
+        background-color: #14cac19d;
+        box-shadow: 3px 3px 5px rgb(158, 158, 158);
+    }
+    
+    .shortDivs > .shortDiv3{
+        margin: 10px;
+        margin-left: 90px;
+        margin-right: 90px;
+        padding: 2px;
+        background-color: #14cac19d;
+        box-shadow: 3px 3px 5px rgb(158, 158, 158);
+    }
+    /* About Us ends*/
+
+/* Team section */
+.cont{
+    display: block;
+}
+
+.title h2{
+    font-size: 35px;
+}
+
+.team .row{
+    margin-top: 2rem;
+}
+
+.team-item{
+    margin: 2rem 0;
+}
+
+.team-img{
+    position: relative;
+    height: 300px !important;
+}
+
+.team-icons{
+    text-align: center;
+}
+
+.team-icons a{
+    color: var(--night-rider);
+    width: 70px;
+    height: 70px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.team-info{
+    text-align: center;
+    padding: 1.5rem;
+    line-height: 1;
+}
+
+.team-info h3{
+    font-size: 1.4rem;
+    color: var(--night-rider);
+}
+
+.team-info span{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+    opacity: 0.7;
+}
+/* Team section ends */
+
+/* Courses Section*/
+.cont #coursesHeading, #testimonialHeading, 
+#pricingHeading, #contactHeading{
+    margin-top: 40px;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.banner img{
+    width: 100%;
+    height: 520px;
+    opacity: 0.6;
+}
+
+.heading{
+    color: rgb(58, 58, 58); position: absolute; 
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 5px 5px 10px gray;
+}
+
+.para{
+    color: rgb(58, 58, 58); position: absolute; 
+    top: 55%;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    text-shadow: 5px 5px 10px gray;
+}
+
+.mainDiv, .mainDiv1{
+    color: rgb(58, 58, 58);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mainDiv ul, .mainDiv1 ul{
+    list-style: disc;
+}
+
+.mainDiv h2, .mainDiv1 h2{
+    padding-left: 40px;
+}
+
+.mainDiv .div1 li, .mainDiv .div2 li, .mainDiv .div3 li,
+.mainDiv1 .div4 li, .mainDiv1 .div5 li, .mainDiv1 .div6 li{
+    font-size: 19px;
+}
+
+.mainDiv .div1{
+    flex:1;
+    margin: 10px;
+    box-shadow: 3px 3px 5px #6fb1ad9d;
+    border-left: 2px solid rgb(182, 174, 174);
+    border-top: 2px solid rgb(182, 174, 174);
+}
+
+.mainDiv .div2{
+    flex:1;
+    margin: 10px;
+    box-shadow: 3px 3px 5px #6fb1ad9d;
+    border-left: 2px solid rgb(182, 174, 174);
+    border-top: 2px solid rgb(182, 174, 174);
+}
+
+.mainDiv .div3{
+    flex:1;
+    margin: 10px;
+    box-shadow: 3px 3px 5px #6fb1ad9d;
+    border-left: 2px solid rgb(182, 174, 174);
+    border-top: 2px solid rgb(182, 174, 174);
+}
+
+.mainDiv1 .div4{
+    flex:1;
+    margin: 10px;
+    box-shadow: 3px 3px 5px #6fb1ad9d;
+    border-left: 2px solid rgb(182, 174, 174);
+    border-top: 2px solid rgb(182, 174, 174);
+}
+
+.mainDiv1 .div5{
+    flex:1;
+    margin: 10px;
+    box-shadow: 3px 3px 5px #6fb1ad9d;
+    border-left: 2px solid rgb(182, 174, 174);
+    border-top: 2px solid rgb(182, 174, 174);
+}
+
+.mainDiv1 .div6{
+    flex:1;
+    margin: 10px;
+    box-shadow: 3px 3px 5px #6fb1ad9d;
+    border-left: 2px solid rgb(182, 174, 174);
+    border-top: 2px solid rgb(182, 174, 174);
+}
+
+.mainDiv2{
+    background-color: #14cac19d;
+    height: 200px;
+    padding-top: 50px;
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+}
+/* Courses Section Ends*/
+
+/*Testimonials Section */
+.wrapper{    
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.wrapper .box{
+  background: #fff;
+  width: calc(33% - 10px);
+  padding: 25px;
+  margin: 15px;
+  border-radius: 3px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
+}
+
+.wrapper .box .content{
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.box .info .name{
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+}
+
+.box .info .job{
+  font-size: 16px;
+  font-weight: bold;
+  color: #14cac19d;
+  text-align: center;
+}
+
+@media (max-width: 1045px) {
+  .wrapper .box{
+    width: calc(50% - 10px);
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 702px) {
+  .wrapper .box{
+    width: 100%;
+  }
+}
+
+/* Pricing Section */
+.conPricing{
+    display: block;
+}
+
+.pricing .row{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #14cac19d;
+}
+
+.pricing-item{
+    text-align: center;
+    padding: 20px;
+    box-shadow: 5px 5px 7px grey;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 17%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.pricing-item h2{
+    color: black;
+    opacity: 0.7;
+    font-size: 1.5rem;
+}
+
+.pricing-item .price{
+    line-height: 1.1;
+}
+
+.pricing-item .price span{
+    display: block;
+}
+
+.pricing-item .price span:first-child{
+    font-size: 2.6rem;
+    font-weight: bold;
+    color: rgb(163, 47, 47);
+}
+
+.pricing-item .price span:last-child{
+    font-size: 0.85rem;
+    letter-spacing: 1;
+    font-weight: 500;
+}
+
+.pricing-item ul li, .price{
+    padding: 5px;
+    opacity: 0.7;
+    list-style-type: none;
+    text-align: center !important;
+}
+/* Pricing section ends */
+
+/* Contact Section */
+.ConMainDiv{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    align-items: center;
+}
+
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid var(--black);
+    color: var(--black);
+    background: transparent;
+    font-size: 15px;
+}
+
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: var(--black);
+    cursor: text;
+    transition: 0.2s;
+}
+
+#SubmitBtn{
+    padding: 10px;
+    color: var(--black);
+    outline: none;
+    background: transparent;
+    border: 1px solid var(--black);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#submitBtnDiv{
+    text-align: center;
+}
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    top: -35px;
+    font-size: 14px;
+}
+
+.firstFields{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.firstFields .input-group{
+    flex-basis: 48%;
+}
+
+.ConMainDiv h2{
+    text-align: center;
+    color: var(--black);
+    margin-bottom: 40px;
+}
+/* Contact Section ends */ 
+
+/* footer Section*/
+.footerbox-container{
+    background: linear-gradient(rgba(0,0,0,0.6),#1c1f27);
+}
+
+footer>p{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+} 
+
+.footer .footerbox-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+
+.footer .footerbox-container .footerbox{
+    height: 350px;
+}
+
+.footer .footerbox-container .footerbox h3{
+    padding:.5rem 0;
+    font-size: 1.75rem;
+    color:var(--white-smoke);
+}
+
+.footer .footerbox-container .footerbox a{
+    display: block;
+    padding:.5rem 0;
+    font-size: 1rem;
+    color:var(--white-smoke);
+}
+
+.footer .footerbox-container .footerbox a:hover{
+    color:#14cac19d;
+    text-decoration: underline;
+}
+
+.footer .rights{
+    text-align: center;
+    border-top: 0.1rem solid rgba(0,0,0,.1);
+    font-size: 20px;
+    color:black;
+    padding:.5rem;
+    padding-top: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.footer .rights span{
+    color:#14cac19d;
+}
+/* footer Section ends*/
